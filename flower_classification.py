@@ -14,8 +14,8 @@ import matplotlib.pyplot as plt
 
 """# Exploring Data"""
 
-train=pd.read_csv('/content/drive/My Drive/Colab Notebooks/Competitions/Flower predictions/Train.csv')
-test=pd.read_csv('/content/drive/My Drive/Colab Notebooks/Competitions/Flower predictions/Test.csv')
+train=pd.read_csv('/Train.csv')
+test=pd.read_csv('/Test.csv')
 
 train.head()
 
